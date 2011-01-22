@@ -33,10 +33,17 @@ namespace Folha_de_Ponto.Dominio
                 _nome = value;
             }
         }
+        public string _projetos;
 
         public Cliente(String nome_do_cliente)
         {
             Nome = nome_do_cliente;
+        }
+        public string[] listar_projetos(){
+            String[] Projetos = new string[]{_projetos.Substring(0,_projetos.Length-1)} ;
+           
+                return Projetos;
+           
         }
     }
 }

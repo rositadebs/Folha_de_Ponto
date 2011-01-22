@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ea81e808-af4f-467e-b9b6-690bb920ac62" name="User@USER-PC 2011-01-16 17:12:19" runUser="USER-PC\User" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7cfd8a5e-6f90-483e-897f-91d4db45673e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="User_USER-PC 2011-01-16 17_12_19">
+      <DeploymentItem filename="C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Dominio\bin\Debug\Folha_de_Ponto.Dominio.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-01-16T17:12:19.4687500-02:00" queuing="2011-01-16T17:12:19.5625000-02:00" start="2011-01-16T17:12:19.8281250-02:00" finish="2011-01-16T17:12:21.5781250-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="8" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="nome_do_projeto_nao_pode_ser_vazio" storage="c:\documents and settings\user\meus documentos\visual studio 2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="60479fc3-ccbb-e758-0049-bfe85068b823">
+      <Execution id="97d8ec4f-7b7d-4b70-a57e-a6032f8bc464" />
+      <TestMethod codeBase="C:/Documents and Settings/User/Meus documentos/Visual Studio 2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_um_Projeto, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="nome_do_projeto_nao_pode_ser_vazio" />
+    </UnitTest>
+    <UnitTest name="eh_possivel_listar_projetos_do_cliente" storage="c:\documents and settings\user\meus documentos\visual studio 2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="06099f84-300c-c1ad-0a23-ad9c91ad36be">
+      <Execution id="904a595d-7a08-44eb-9e8f-3fcf533fdf32" />
+      <TestMethod codeBase="C:/Documents and Settings/User/Meus documentos/Visual Studio 2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="eh_possivel_listar_projetos_do_cliente" />
+    </UnitTest>
+    <UnitTest name="não_pode_criar_cliente_sem_nome" storage="c:\documents and settings\user\meus documentos\visual studio 2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="0dd8cff1-e7a1-1c38-9b1e-7393ab85a36a">
+      <Execution id="99882dd5-ebf0-4f45-bb3f-f0700631799c" />
+      <TestMethod codeBase="C:/Documents and Settings/User/Meus documentos/Visual Studio 2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="não_pode_criar_cliente_sem_nome" />
+    </UnitTest>
+    <UnitTest name="verifica_total_de_funcionarios" storage="c:\documents and settings\user\meus documentos\visual studio 2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="e3f9c130-688c-b180-cb0f-6b82934789e8">
+      <Execution id="9b429492-4cec-4e52-a7ad-b2a41a41284b" />
+      <TestMethod codeBase="C:/Documents and Settings/User/Meus documentos/Visual Studio 2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_um_Funcionário, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="verifica_total_de_funcionarios" />
+    </UnitTest>
+    <UnitTest name="posso_informar_telefone_do_cliente" storage="c:\documents and settings\user\meus documentos\visual studio 2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="bda8e4f1-4479-b119-f77f-6c26cdf4f465">
+      <Execution id="30b35816-a82f-42cc-bfb6-192d12056bdc" />
+      <TestMethod codeBase="C:/Documents and Settings/User/Meus documentos/Visual Studio 2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="posso_informar_telefone_do_cliente" />
+    </UnitTest>
+    <UnitTest name="nao_pode_criar_projeto_sem_cliente_e_nome" storage="c:\documents and settings\user\meus documentos\visual studio 2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="5dc56edc-6663-9e8b-e39a-c945a114a979">
+      <Execution id="9d9d9024-5891-4654-a9cf-4b10529565fa" />
+      <TestMethod codeBase="C:/Documents and Settings/User/Meus documentos/Visual Studio 2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_um_Projeto, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="nao_pode_criar_projeto_sem_cliente_e_nome" />
+    </UnitTest>
+    <UnitTest name="nome_do_cliente_não_pode_ser_vazio" storage="c:\documents and settings\user\meus documentos\visual studio 2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="272aedbe-ec3b-2d32-bbf8-2956aff68731">
+      <Execution id="d8926e8b-a045-491b-a21e-3349408aff93" />
+      <TestMethod codeBase="C:/Documents and Settings/User/Meus documentos/Visual Studio 2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="nome_do_cliente_não_pode_ser_vazio" />
+    </UnitTest>
+    <UnitTest name="não_pode_criar_funcionário_sem_nome_e_identificação" storage="c:\documents and settings\user\meus documentos\visual studio 2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="c4458f2d-f673-2109-2027-4b36f6748ee2">
+      <Execution id="17c92391-d834-4c40-a00e-e9d3fd612c8e" />
+      <TestMethod codeBase="C:/Documents and Settings/User/Meus documentos/Visual Studio 2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_um_Funcionário, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="não_pode_criar_funcionário_sem_nome_e_identificação" />
+    </UnitTest>
+    <UnitTest name="telefone_do_cliente_não_pode_ter_mais_de_17_caracteres" storage="c:\documents and settings\user\meus documentos\visual studio 2010\projects\folha_de_ponto\folha_de_ponto.teste\bin\debug\folha_de_ponto.teste.dll" id="62e9c147-057d-de3e-d83e-5f638b506213">
+      <Execution id="0b34c6a4-3f0b-4b7e-8608-c72a6b721da6" />
+      <TestMethod codeBase="C:/Documents and Settings/User/Meus documentos/Visual Studio 2010/Projects/Folha_de_Ponto/Folha_de_Ponto.Teste/bin/Debug/Folha_de_Ponto.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Folha_de_Ponto.Teste.Dado_Um_Cliente, Folha_de_Ponto.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="telefone_do_cliente_não_pode_ter_mais_de_17_caracteres" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="06099f84-300c-c1ad-0a23-ad9c91ad36be" executionId="904a595d-7a08-44eb-9e8f-3fcf533fdf32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0dd8cff1-e7a1-1c38-9b1e-7393ab85a36a" executionId="99882dd5-ebf0-4f45-bb3f-f0700631799c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="272aedbe-ec3b-2d32-bbf8-2956aff68731" executionId="d8926e8b-a045-491b-a21e-3349408aff93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5dc56edc-6663-9e8b-e39a-c945a114a979" executionId="9d9d9024-5891-4654-a9cf-4b10529565fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60479fc3-ccbb-e758-0049-bfe85068b823" executionId="97d8ec4f-7b7d-4b70-a57e-a6032f8bc464" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62e9c147-057d-de3e-d83e-5f638b506213" executionId="0b34c6a4-3f0b-4b7e-8608-c72a6b721da6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bda8e4f1-4479-b119-f77f-6c26cdf4f465" executionId="30b35816-a82f-42cc-bfb6-192d12056bdc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4458f2d-f673-2109-2027-4b36f6748ee2" executionId="17c92391-d834-4c40-a00e-e9d3fd612c8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3f9c130-688c-b180-cb0f-6b82934789e8" executionId="9b429492-4cec-4e52-a7ad-b2a41a41284b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="904a595d-7a08-44eb-9e8f-3fcf533fdf32" testId="06099f84-300c-c1ad-0a23-ad9c91ad36be" testName="eh_possivel_listar_projetos_do_cliente" computerName="USER-PC" duration="00:00:00.0394997" startTime="2011-01-16T17:12:20.2500000-02:00" endTime="2011-01-16T17:12:21.0156250-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="904a595d-7a08-44eb-9e8f-3fcf533fdf32">
+    </UnitTestResult>
+    <UnitTestResult executionId="99882dd5-ebf0-4f45-bb3f-f0700631799c" testId="0dd8cff1-e7a1-1c38-9b1e-7393ab85a36a" testName="não_pode_criar_cliente_sem_nome" computerName="USER-PC" duration="00:00:00.0030537" startTime="2011-01-16T17:12:21.0312500-02:00" endTime="2011-01-16T17:12:21.0468750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99882dd5-ebf0-4f45-bb3f-f0700631799c">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8926e8b-a045-491b-a21e-3349408aff93" testId="272aedbe-ec3b-2d32-bbf8-2956aff68731" testName="nome_do_cliente_não_pode_ser_vazio" computerName="USER-PC" duration="00:00:00.0063030" startTime="2011-01-16T17:12:21.0625000-02:00" endTime="2011-01-16T17:12:21.0781250-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8926e8b-a045-491b-a21e-3349408aff93">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d9d9024-5891-4654-a9cf-4b10529565fa" testId="5dc56edc-6663-9e8b-e39a-c945a114a979" testName="nao_pode_criar_projeto_sem_cliente_e_nome" computerName="USER-PC" duration="00:00:00.0011736" startTime="2011-01-16T17:12:21.0781250-02:00" endTime="2011-01-16T17:12:21.0937500-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d9d9024-5891-4654-a9cf-4b10529565fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="97d8ec4f-7b7d-4b70-a57e-a6032f8bc464" testId="60479fc3-ccbb-e758-0049-bfe85068b823" testName="nome_do_projeto_nao_pode_ser_vazio" computerName="USER-PC" duration="00:00:00.0012208" startTime="2011-01-16T17:12:21.1093750-02:00" endTime="2011-01-16T17:12:21.1250000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97d8ec4f-7b7d-4b70-a57e-a6032f8bc464">
+    </UnitTestResult>
+    <UnitTestResult executionId="0b34c6a4-3f0b-4b7e-8608-c72a6b721da6" testId="62e9c147-057d-de3e-d83e-5f638b506213" testName="telefone_do_cliente_não_pode_ter_mais_de_17_caracteres" computerName="USER-PC" duration="00:00:00.0017513" startTime="2011-01-16T17:12:21.1250000-02:00" endTime="2011-01-16T17:12:21.1406250-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b34c6a4-3f0b-4b7e-8608-c72a6b721da6">
+    </UnitTestResult>
+    <UnitTestResult executionId="30b35816-a82f-42cc-bfb6-192d12056bdc" testId="bda8e4f1-4479-b119-f77f-6c26cdf4f465" testName="posso_informar_telefone_do_cliente" computerName="USER-PC" duration="00:00:00.0010079" startTime="2011-01-16T17:12:21.1562500-02:00" endTime="2011-01-16T17:12:21.1718750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30b35816-a82f-42cc-bfb6-192d12056bdc">
+    </UnitTestResult>
+    <UnitTestResult executionId="17c92391-d834-4c40-a00e-e9d3fd612c8e" testId="c4458f2d-f673-2109-2027-4b36f6748ee2" testName="não_pode_criar_funcionário_sem_nome_e_identificação" computerName="USER-PC" duration="00:00:00.0054314" startTime="2011-01-16T17:12:21.1718750-02:00" endTime="2011-01-16T17:12:21.1875000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17c92391-d834-4c40-a00e-e9d3fd612c8e">
+    </UnitTestResult>
+    <UnitTestResult executionId="9b429492-4cec-4e52-a7ad-b2a41a41284b" testId="e3f9c130-688c-b180-cb0f-6b82934789e8" testName="verifica_total_de_funcionarios" computerName="USER-PC" duration="00:00:00.0447685" startTime="2011-01-16T17:12:21.1875000-02:00" endTime="2011-01-16T17:12:21.2656250-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b429492-4cec-4e52-a7ad-b2a41a41284b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at Folha_de_Ponto.Teste.Dado_um_Funcionário.verifica_total_de_funcionarios() in C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\Dado_um_Funcionário.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

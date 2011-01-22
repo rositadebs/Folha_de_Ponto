@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dado_Um_Cliente.cs" />
+    <Compile Include="Dado_um_Funcionário.cs" />
     <Compile Include="Dado_um_Projeto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

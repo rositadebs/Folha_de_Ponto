@@ -19,3 +19,10 @@ C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Trova
 C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Trovarius-Folha_de_Ponto-fc891e3\Folha_de_Ponto.Teste\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Trovarius-Folha_de_Ponto-fc891e3\Folha_de_Ponto.Teste\obj\Debug\Folha_de_Ponto.Teste.dll
 C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Trovarius-Folha_de_Ponto-fc891e3\Folha_de_Ponto.Teste\obj\Debug\Folha_de_Ponto.Teste.pdb
+C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\obj\Debug\Folha_de_Ponto.Teste.dll
+C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\bin\Debug\Folha_de_Ponto.Teste.dll
+C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\bin\Debug\Folha_de_Ponto.Teste.pdb
+C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\bin\Debug\Folha_de_Ponto.Dominio.dll
+C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\bin\Debug\Folha_de_Ponto.Dominio.pdb
+C:\Documents and Settings\User\Meus documentos\Visual Studio 2010\Projects\Folha_de_Ponto\Folha_de_Ponto.Teste\obj\Debug\Folha_de_Ponto.Teste.pdb

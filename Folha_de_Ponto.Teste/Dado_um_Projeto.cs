@@ -11,12 +11,13 @@ namespace Folha_de_Ponto.Teste
     public class Dado_um_Projeto
     {
         [TestMethod]
-        public void nao_pode_criar_projeto_sem_cliente_e_nome()
+        public void todo_projeto_tem_cliente_e_nome()
         {
             Cliente cliente = new Cliente("Gupo de estudos");
             Projeto projeto = new Projeto(cliente, "teste");
             Assert.AreEqual(cliente, projeto.cliente);
         }
+
         [TestMethod]
         [ExpectedException(typeof(Exception))] 
         public void nome_do_projeto_nao_pode_ser_vazio()

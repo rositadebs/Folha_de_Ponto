@@ -25,6 +25,7 @@ namespace Folha_de_Ponto.Dominio
         {
             cliente = cliente_do_projeto;
             Nome = nome_do_projeto;
+            cliente._projetos +=nome_do_projeto + ",";
         }
     }
 }
